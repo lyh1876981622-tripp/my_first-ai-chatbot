@@ -39,8 +39,8 @@ demo = gr.ChatInterface(
         gr.Slider(0.0, 1.0, value=0.9, label="Top_p（多样性控制）"),
         gr.Slider(50, 300, value=150, step=10, label="最大新生成token数")
     ],
-    title="2026最终稳定版AI聊天机器人",
-    description="支持多轮上下文记忆与参数调整（兼容最新Gradio）"
+    title="2026AI聊天机器人",
+    description="支持多轮上下文记忆与参数调整"
 )
 
 demo.launch()
